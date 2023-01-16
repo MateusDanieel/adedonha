@@ -7,3 +7,15 @@
 @custom-media --deskMini (width > 992px);
 @custom-media --desk (width > 1248px);
 @custom-media --deskWide (width > 1440px);
+
+$black: #000;
+$white: #fff;
+$primary: #ce2eff;
+$secondary: #a52ff7;
+
+body {
+    background-color: #1c253f;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

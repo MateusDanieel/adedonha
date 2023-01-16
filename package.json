@@ -1,5 +1,5 @@
 {
-  "name": "template_base",
+  "name": "adedonha",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -32,5 +32,13 @@
   "devDependencies": {
     "postcss-preset-env": "^7.8.2"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusDanieel/adedonha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MateusDanieel/adedonha/issues"
+  },
+  "homepage": "https://github.com/MateusDanieel/adedonha#readme"
 }
