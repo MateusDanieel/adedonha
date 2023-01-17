@@ -14,80 +14,107 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
     <link rel="icon" href="icon.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="dist/css/style.min.css">
     <meta name="theme-color" content="#fafafa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="dist/css/style.min.css">
 </head>
 <body>
+
+    <header class="sec-header">
+        <div class="container">
+            <h1 class="title">
+                Stop - Adedonha
+            </h1>
+        </div>
+    </header>
 
     <section class="sec-themes">
 
         <div class="container">
-            <input type="checkbox" id="alimentos" name="alimentos" value="Alimentos">
-            <label for="alimentos">Alimentos</label>
 
-            <input type="checkbox" id="frutas" name="frutas" value="Frutas">
-            <label for="frutas">Frutas</label>
+            <h2 class="subtitle">
+                Selecione os temas (mín.: 4).
+            </h2>
 
-            <input type="checkbox" id="animais" name="animais" value="Animais">
-            <label for="animais">Animais</label>
+            <div class="wrapper">
+                <input type="checkbox" id="alimentos" name="alimentos" value="Alimentos">
+                <label for="alimentos">Alimentos</label>
+    
+                <input type="checkbox" id="frutas" name="frutas" value="Frutas">
+                <label for="frutas">Frutas</label>
+    
+                <input type="checkbox" id="animais" name="animais" value="Animais">
+                <label for="animais">Animais</label>
+    
+                <input type="checkbox" id="celebridades" name="celebridades" value="Celebridades">
+                <label for="celebridades">Celebridades</label>
+    
+                <input type="checkbox" id="carros" name="carros" value="Carros">
+                <label for="carros">Carros</label>
+    
+                <input type="checkbox" id="esportes" name="esportes" value="Esportes">
+                <label for="esportes">Esportes</label>
+    
+                <input type="checkbox" id="cores" name="cores" value="Cores">
+                <label for="cores">Cores</label>
+    
+                <input type="checkbox" id="times_futebol" name="times_futebol" value="Times de Futebol">
+                <label for="times_futebol">Times de Futebol</label>
+    
+                <input type="checkbox" id="mse" name="mse" value="Minha Sogra É">
+                <label for="mse">Minha Sogra É</label>
+    
+                <input type="checkbox" id="cep" name="cep" value="Cidade, Estado ou País">
+                <label for="cep">Cidade, Estado ou País</label>
+    
+                <input type="checkbox" id="fsdn" name="fsdn" value="Filme, Série, Desenho ou Novela">
+                <label for="fsdn">Filme, Série, Desenho ou Novela</label>
+    
+                <input type="checkbox" id="cantor_banda" name="cantor_banda" value="Cantor ou Banda">
+                <label for="cantor_banda">Cantor ou Banda</label>
+    
+                <input type="checkbox" id="instrumentos" name="instrumentos" value="Instrumentos Musicais">
+                <label for="instrumentos">Instrumentos Musicais</label>
+    
+                <input type="checkbox" id="marcas" name="marcas" value="Marcas Famosas">
+                <label for="marcas">Marcas Famosas</label>
+    
+                <input type="checkbox" id="meios_transporte" name="meios_transporte" value="Meios de Transporte">
+                <label for="meios_transporte">Meios de Transporte</label>
+    
+                <input type="checkbox" id="partes_corpo" name="partes_corpo" value="Partes do Corpo">
+                <label for="partes_corpo">Partes do Corpo</label>
+    
+                <input type="checkbox" id="ator_atriz" name="ator_atriz" value="Ator ou Atriz">
+                <label for="ator_atriz">Ator ou Atriz</label>
+    
+                <input type="checkbox" id="flores" name="flores" value="Flores">
+                <label for="flores">Flores</label>
+    
+                <input type="checkbox" id="obj" name="obj" value="Objetos">
+                <label for="obj">Objetos</label>
+    
+                <input type="checkbox" id="nome" name="nome" value="Nome Próprio">
+                <label for="nome">Nome Próprio</label>
+    
+                <input type="checkbox" id="sobrenome" name="sobrenome" value="Sobrenome">
+                <label for="sobrenome">Sobrenome</label>
+            </div>
 
-            <input type="checkbox" id="celebridades" name="celebridades" value="Celebridades">
-            <label for="celebridades">Celebridades</label>
-
-            <input type="checkbox" id="carros" name="carros" value="Carros">
-            <label for="carros">Carros</label>
-
-            <input type="checkbox" id="esportes" name="esportes" value="Esportes">
-            <label for="esportes">Esportes</label>
-
-            <input type="checkbox" id="cores" name="cores" value="Cores">
-            <label for="cores">Cores</label>
-
-            <input type="checkbox" id="times_futebol" name="times_futebol" value="Times de Futebol">
-            <label for="times_futebol">Times de Futebol</label>
-
-            <input type="checkbox" id="mse" name="mse" value="Minha Sogra É">
-            <label for="mse">Minha Sogra É</label>
-
-            <input type="checkbox" id="cep" name="cep" value="Cidade, Estado ou País">
-            <label for="cep">Cidade, Estado ou País</label>
-
-            <input type="checkbox" id="fsdn" name="fsdn" value="Filme, Série, Desenho ou Novela">
-            <label for="fsdn">Filme, Série, Desenho ou Novela</label>
-
-            <input type="checkbox" id="cantor_banda" name="cantor_banda" value="Cantor ou Banda">
-            <label for="cantor_banda">Cantor ou Banda</label>
-
-            <input type="checkbox" id="instrumentos" name="instrumentos" value="Instrumentos Musicais">
-            <label for="instrumentos">Instrumentos Musicais</label>
-
-            <input type="checkbox" id="marcas" name="marcas" value="Marcas Famosas">
-            <label for="marcas">Marcas Famosas</label>
-
-            <input type="checkbox" id="meios_transporte" name="meios_transporte" value="Meios de Transporte">
-            <label for="meios_transporte">Meios de Transporte</label>
-
-            <input type="checkbox" id="partes_corpo" name="partes_corpo" value="Partes do Corpo">
-            <label for="partes_corpo">Partes do Corpo</label>
-
-            <input type="checkbox" id="partes_corpo" name="partes_corpo" value="Partes do Corpo">
-            <label for="partes_corpo">Ator ou Atriz</label>
-
-            <input type="checkbox" id="flores" name="flores" value="Flores">
-            <label for="flores">Flores</label>
-
-            <input type="checkbox" id="obj" name="obj" value="Objetos">
-            <label for="obj">Objetos</label>
-
-            <input type="checkbox" id="nome" name="nome" value="Nome Próprio">
-            <label for="nome">Nome Próprio</label>
-
-            <input type="checkbox" id="sobrenome" name="sobrenome" value="Sobrenome">
-            <label for="sobrenome">Sobrenome</label>
+            <button type="button" id="bt_start" class="bt">
+                <i class="fa-solid fa-play"></i> Começar
+            </button>
+            
         </div>
+
+        
 
     </section>
 
     <script src="dist/js/script.min.js"></script>
+    <script src="https://kit.fontawesome.com/7151019fde.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
