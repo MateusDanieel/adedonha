@@ -1,0 +1,69 @@
+.sec-header {
+    .title {
+        text-align: center;
+        font-size: 72px;
+        text-transform: uppercase;
+    }
+}
+
+.sec-themes {
+    .subtitle {
+        text-align: center;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    input {
+        display: none;
+
+        & + label {
+            display: inline-block;
+            color: #444c72;
+            background-color: #162037;
+            padding: 15px 30px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: .3s;
+            font-weight: 500;
+
+            &:hover {
+                color: $white;
+            }
+        }
+
+        &:checked + label {
+            background-image: linear-gradient(to right, $primary, $secondary);
+            color: $white;
+        }
+    }
+
+    .bt {
+        display: block;
+        margin: 20px auto;
+        text-transform: uppercase;
+        border: 0;
+        padding: 15px 40px;
+        font-weight: 500;
+        border-radius: 12px;
+        color: $white;
+        cursor: pointer;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        /*
+        color: $white;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 3px;
+        border-image-source: linear-gradient(to right, $primary, $secondary);
+        background-color: transparent;
+        */
+        i {
+            margin: 0 7.5px 0 0;
+        }
+    }
+}
